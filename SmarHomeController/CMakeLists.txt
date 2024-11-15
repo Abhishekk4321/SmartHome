@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 project(SmartHomeController VERSION 0.1 LANGUAGES CXX)
 
 #for sub directory 
-add_subdirectory(SmartHomeControllerApp)
+add_subdirectory(SmartHomeControllerComponents)
 
 
 
