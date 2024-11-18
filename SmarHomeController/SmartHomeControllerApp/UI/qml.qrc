@@ -2,5 +2,8 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>screens/Dashboard.qml</file>
+        <file>screens/RoomOverview.qml</file>
+        <file>screens/DeviceControl.qml</file>
+        <file>screens/devices.qml</file>
     </qresource>
 </RCC>
