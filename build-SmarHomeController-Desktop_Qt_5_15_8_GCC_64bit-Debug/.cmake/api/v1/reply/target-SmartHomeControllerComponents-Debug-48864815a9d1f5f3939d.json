@@ -1,0 +1,136 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "SmartHomeControllerComponents/libSmartHomeControllerComponents.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"SmartHomeControllerComponents/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/SmartHomeControllerComponents_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/amey/Dimanshu/SmarHomeController/SmartHomeControllerComponents"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/amey/Qt5.15.8/5.15.8/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/amey/Qt5.15.8/5.15.8/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/amey/Qt5.15.8/5.15.8/gcc_64/./mkspecs/linux-g++"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "SmartHomeControllerComponents_autogen::@8cbf69942de39a130c8c"
+		}
+	],
+	"id" : "SmartHomeControllerComponents::@8cbf69942de39a130c8c",
+	"name" : "SmartHomeControllerComponents",
+	"nameOnDisk" : "libSmartHomeControllerComponents.a",
+	"paths" : 
+	{
+		"build" : "SmartHomeControllerComponents",
+		"source" : "SmartHomeControllerComponents"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/SmartHomeControllerComponents_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

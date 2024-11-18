@@ -5,5 +5,10 @@
         <file>screens/RoomOverview.qml</file>
         <file>screens/DeviceControl.qml</file>
         <file>screens/devices.qml</file>
+        <file>screens/Settings.qml</file>
+        <file>screens/WifiSetting.qml</file>
+        <file>screens/Scheduling.qml</file>
+        <file>screens/SecurityAlerts.qml</file>
+        <file>screens/UserProfileSettings.qml</file>
     </qresource>
 </RCC>

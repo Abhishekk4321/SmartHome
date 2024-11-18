@@ -70,7 +70,7 @@ ApplicationWindow {
             Button {
                 text: qsTr("Settings")
                 onClicked: {
-                    mainStackView.push(Qt.resolvedUrl("screens/settings.qml"));
+                    mainStackView.push(Qt.resolvedUrl("screens/Settings.qml"));
                     navDrawer.close();
                 }
             }

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmartHomeControllerComponents.a CMakeFiles/SmartHomeControllerComponents.dir/SmartHomeControllerComponents_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libSmartHomeControllerComponents.a

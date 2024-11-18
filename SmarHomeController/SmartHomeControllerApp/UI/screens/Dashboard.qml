@@ -147,6 +147,20 @@ Rectangle {
                         stackView.push(Qt.resolvedUrl("qrc:/screens/DeviceControl.qml"))
                     }
                 }
+                Button {
+                    text: "Security & Alerts"
+                    onClicked: {
+                        stackView.push("qrc:/screens/SecurityAlerts.qml")
+                    }
+                }
+                Button {
+                    text: "User Profile & Settings"
+                    onClicked: {
+                        stackView.push("qrc:/screens/UserProfileSettings.qml")
+                    }
+                }
+
+
             }
         }
     }
@@ -159,7 +173,6 @@ Rectangle {
         anchors.top: header.bottom
         anchors.left: parent.left
         anchors.right: parent.right
-        initialItem: Qt.resolvedUrl("qrc:/screens/RoomOverview.qml")
     }
 
     // Footer Section

@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "SmartHomeControllerComponents",
+					"jsonFile" : "directory-SmartHomeControllerComponents-Debug-d6c8fa0891f4b4855c96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "SmartHomeControllerComponents",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartHomeController"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SmartHomeControllerApp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SmartHomeControllerApp::@8cbf69942de39a130c8c",
+					"jsonFile" : "target-SmartHomeControllerApp-Debug-a523c955a7e47d67393d.json",
+					"name" : "SmartHomeControllerApp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SmartHomeControllerApp_autogen::@8cbf69942de39a130c8c",
+					"jsonFile" : "target-SmartHomeControllerApp_autogen-Debug-d115a901c3c9346995ce.json",
+					"name" : "SmartHomeControllerApp_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SmartHomeControllerComponents::@8cbf69942de39a130c8c",
+					"jsonFile" : "target-SmartHomeControllerComponents-Debug-48864815a9d1f5f3939d.json",
+					"name" : "SmartHomeControllerComponents",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SmartHomeControllerComponents_autogen::@8cbf69942de39a130c8c",
+					"jsonFile" : "target-SmartHomeControllerComponents_autogen-Debug-81c2be8ce100103b5474.json",
+					"name" : "SmartHomeControllerComponents_autogen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug",
+		"source" : "/home/amey/Dimanshu/SmarHomeController"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,8 @@
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/SmartHomeControllerApp.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/SmartHomeControllerComponents.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/edit_cache.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/rebuild_cache.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/SmartHomeControllerApp_autogen.dir
+/home/amey/Dimanshu/build-SmarHomeController-Desktop_Qt_5_15_8_GCC_64bit-Debug/SmartHomeControllerComponents/CMakeFiles/SmartHomeControllerComponents_autogen.dir

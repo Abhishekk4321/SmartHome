@@ -5,13 +5,14 @@ Rectangle {
     id: deviceControl
     width: 640
     height: 480
-    color: "#ffffff"
+    color: "#f9f9f9"
 
     // Header Section
     Row {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 20
+        spacing: 10
 
         // Back Button
         Button {
@@ -27,7 +28,6 @@ Rectangle {
             font.pixelSize: 28
             font.bold: true
             color: "#333333"
-            anchors.leftMargin: 20
         }
     }
 
@@ -79,6 +79,16 @@ Rectangle {
                             anchors.verticalCenter: parent.verticalCenter
                             onClicked: {
                                 console.log(modelData.name + " toggled to: " + checked)
+                            }
+                        }
+
+                        // Schedule Button
+                        Button {
+                            text: "Schedule"
+                            anchors.verticalCenter: parent.verticalCenter
+                            onClicked: {
+                                console.log("Navigating to Scheduling Screen for: " + modelData.name)
+                                mainStackView.push("qrc:/screens/Scheduling.qml", { deviceName: modelData.name })
                             }
                         }
                     }
